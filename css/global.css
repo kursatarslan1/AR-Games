@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.bg{
+    background: black;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+}
+
+.heading-big{
+    text-align: center;
+    font-size: 2rem;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Navbar */
+
+#navbar{
+    display: flex;
+    color: white;
+    background: black;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 0.75rem;
+    height: 60px;
+}
+
+#navbar a{
+    text-align: center;
+    align-items: center;
+    align-self: center;
+    justify-content: center;
+}
+
+#navbar ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+#navbar ul li{
+    margin-right:3rem;
+    font-size: 1.25rem;
+}
+
+#navbar ul li:hover{
+    transform: scale(1.1);
+}
+
+
+#navbar ul li a{
+    margin-right: 0.5rem;
+    padding: 0.5rem;   
+    color: white;
+    border-radius: 4px;
+}
+
+#navbar ul li a:hover{
+    background: blak;
+    color: white;
+    border-radius: 4px;
+}
+
+#navbar .renkli{
+    border: 1px solid green;
+}
+
+/* Footer */
+
+#about{
+    margin: 0;
+    padding: 0;
+    background: black;
+}
+
+
+#about ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    background:  black;
+}
+
+#about ul li a{
+    padding : 0;
+    font-size: 3.5rem;
+}
+
+#about ul li a:hover{
+    opacity: 0.8;
+}
+
+#about .fab{
+    color : #4064AC;
+}
+
+#about .fab.fa-instagram{
+    color: #E20038;
+}

@@ -1,0 +1,171 @@
+.container{
+    width: 100%;
+    overflow-y: hidden;
+}
+.bg{
+    width: 100%;
+}
+
+#navbar{
+    padding: 0;
+    margin :0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 4rem;
+    padding-bottom: 6rem;
+}
+
+#navbar ul{
+    margin-left:8rem;
+    padding: 0;
+}
+
+#navbar ul li{
+    margin: 0;
+    padding-top: 2rem;
+    font-size: 14px;
+}
+
+#bosluk{
+    padding-top:15rem;
+}
+
+.search-box .search-icon.active{
+  width: 75px;
+}
+
+.search-box .cancel-icon.active{
+  top: 60px;
+  right: 187px;
+}
+
+.container2{
+    padding-top: 15rem;
+    width: 375px;
+    height: 550px;
+}
+
+video{
+    justify-content: center;
+    width: 100%;
+    height: 50%;
+    position: absolute;
+    object-fit: cover;
+    transition: all 1.2s linear;
+    z-index: 0;
+}
+
+.container3{
+    display: flex;
+    flex-direction: column;
+    grid-template-columns: repeat(1, 1fr);
+}
+
+.container3 a{
+    margin:0;
+    margin-top: 15px;
+    width: 275px;
+}
+
+.container3 p{
+    background: black;
+    width: 100%;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+.container3 img{
+    width: 275px;
+    height: 250px;
+}
+
+.oyunlar{
+    display: flex;
+    flex-direction: column;
+    grid-template-columns: repeat(1, 1fr);
+    margin-left : 100px;
+}
+
+.heading-big{
+    padding-top: 8rem;
+}
+
+.container4 img{
+    width: 275px;
+}
+
+.container4{
+    flex-direction: column;
+}
+
+#hakkinda{
+    margin-top:15rem;
+}
+
+.content-hakkinda{
+    width: 275px;
+}
+
+.galeri-h1{
+    padding-top: 8rem;
+    font-size: 1.75rem;
+}
+
+.container2{
+    display: flex;
+    height: auto;
+    flex-direction: column;
+    grid-template-columns: repeat(1, 1fr);
+}
+
+#tables{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding : 0; 
+    font-size: 15px;
+    padding: 0;
+}
+
+#tables h2{
+    padding-top:6rem;
+}
+
+#tables h3{
+    text-align: center;
+    padding-bottom: 2rem;
+    letter-spacing: 2px;
+    font-size: 1rem;
+    color: white;
+}
+
+#tables td{
+    padding:0;
+}
+
+#tables th{
+    font-size: 15px;
+}
+
+#senaryo-container h1{
+    padding-top:6rem;
+}
+
+#senaryo-container img{
+    width: 275px;
+    height: 200px;
+}
+
+#senaryo-container .items{
+    width: 335px;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    padding-right: 3rem;
+}
+
+#senaryo-container .items .content p{
+    padding: 0;
+}

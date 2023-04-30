@@ -1,0 +1,146 @@
+body{
+    margin:0;
+    padding:0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    font-family: "Open Sans",sans-serif;
+}
+
+#bosluk{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding : 2rem; 
+}
+
+.giris{
+    text-align: center;
+    align-self: center;
+    width: 350px;
+    box-sizing: border-box;
+    padding: 40px;
+    background: #192850;
+    border: 1px solid gray;
+    border-radius: 3px;
+}
+
+.giris h2{
+    align-self: center;
+    color: #fff;
+    margin: 0 0 20px;
+    padding: 0;
+    font-size: 30px;
+}
+
+.giris .form-control{
+    position: relative;
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+.giris .form-control input{
+    height: 50px;
+    width: 100%;
+    padding: 0 20px;
+    box-sizing: border-box;
+    font-size: 18px;
+    outline: none;
+    background: #EDEDED;
+    border: 1px solid #EDEDED;
+    border-radius: 3px;
+    left: 5px;
+}
+
+.giris .form-control input:hover{
+    background: #e7e7e7;
+    
+}
+
+.giris .form-control button{
+    height: 50px;
+    width: 100%;
+    padding: 0 20px;
+    box-sizing: border-box;
+    font-size: 18px;
+    outline: none;
+    border: 1px solid black;
+    border-radius: 3px;
+    cursor: pointer;
+    background : black;
+    color: white;
+}
+
+.giris .form-control button:hover{
+    background: white;
+    color: #192850;
+}
+
+.giris .form-control span{
+    position: absolute;
+    display: block;
+    top: 15px;
+    left: 20px;
+    padding: 0;
+    transition: 0.5s;
+    pointer-events: none;
+    background: #EDEDED;
+    font-weight: bolder;
+    color:#8f8c89;
+    font-size: 11px;
+}
+
+
+.giris .form-control input:focus ~ span,
+.giris .form-control input:valid ~ span{
+    top:          2px;
+    left :       5px;
+    font-size:   10px;
+    padding: 2px 4px ;
+    background: white;
+}
+
+.giris .form-control input:focus,
+.giris .form-control input:valid{
+    background: white;
+    border: 2px solid black;
+    border-radius: 3px;
+}
+
+.giris .form-control input[type="text"], .giris .form-control input[type="password"]{
+    padding-top:7px;
+    padding-left: 8px;
+}
+
+.AR a{
+    color: gray;
+}
+
+.AR:hover{
+    text-decoration: underline;
+}
+
+span{
+    color:white;
+}
+
+/* Buton yerine input kullanılacak olursa */
+
+/* .kayit .pc input[type="submit"]{
+    color:white;
+    background: brown;
+    border: none;
+    box-shadow: none;
+    cursor: pointer;
+    font-weight: 600;
+    border: 1px solid brown;
+    border-radius: 10px;
+}
+.kayit .pc input[type="submit"]:hover{
+    background: #fff;
+    color: brown;
+} */
+
+
