@@ -36,3 +36,34 @@ bittiğinde otomatik olarak diğer videolar başlar. Javascript kodları slider.
 
 · Responsive tasarım yapılmıştır. Sayfalarda verilen mobile.css max-width:500px olduğu sürece
 çalışacak şekilde ayarlanmıştır.
+
+## Projenin bazı görüntüleri
+
+![ar-8](https://user-images.githubusercontent.com/79106716/235343736-c2d63dc5-b430-4f2f-835a-71fe971b8980.png)
+
+
+![ar-9](https://user-images.githubusercontent.com/79106716/235343738-c30adcd8-63ec-4156-ad39-78b7b8ea9916.png)
+
+
+![ar-1](https://user-images.githubusercontent.com/79106716/235343741-397c7751-789f-4925-af9f-aa83d96ad9c3.png)
+
+
+![ar-2](https://user-images.githubusercontent.com/79106716/235343743-a4c2b076-1ade-4419-a523-b38f7cf4b7b6.png)
+
+
+![ar-3](https://user-images.githubusercontent.com/79106716/235343745-604d87d4-958a-4393-b7cc-765146b3cbdf.png)
+
+
+![ar-4](https://user-images.githubusercontent.com/79106716/235343748-e236cafe-61ea-4940-8f67-fd501d02ea4d.png)
+
+
+![ar-5](https://user-images.githubusercontent.com/79106716/235343750-cfe05f6c-bdc8-4d96-98dc-afae5d787232.png)
+
+
+![ar-6](https://user-images.githubusercontent.com/79106716/235343752-1f9be4c6-e47f-4f72-b5be-c0370282b152.png)
+
+
+![ar-7](https://user-images.githubusercontent.com/79106716/235343754-be43be67-4cb7-4386-86b3-716233444a7e.png)
+
+
+Proje hard-code bir proje hiçbir veritabanı bağlantısı yok. 
